@@ -1,0 +1,21 @@
+.box{
+    border: dashed blue;
+    margin-left: 10px;
+    min-height: 90vh;
+    margin: 50px;
+}
+
+.tabspace{
+    margin: 50px;
+}
+
+span{
+    font-size: 40px;
+}
+
+img{
+    width: 400px;
+    position: relative;
+    top:200px;
+    left: 65%;
+}

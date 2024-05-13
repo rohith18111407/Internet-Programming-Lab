@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+ }
+ .App {
+  text-align: center;
+ }
+ 
+ 
+ #searchInput{
+  width: 50rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 2px solid black;
+  height: 20px;
+  margin-bottom: 2rem;
+ }
+ 
+ 
+ .mainFrame{
+  height: 40rem;
+  width: 100rem;
+  border: 2px solid black;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+ 
+ 
+ .item{
+  width: 25rem;
+  height: 30rem;
+  background-color: yellowgreen;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+ }
+ 
+ 
+ .image{
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+ 
+ 
+ }
+ 
+ 
+ .item button{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px; 
+  cursor: pointer;
+ }
+ 
+ 
+ #cartTable{
+  margin: auto;
+  /* padding: 10px;   */
+ }
+ 
+ 
+ #cartTable th{
+  /* text-align: center; */
+  padding: 10px;
+  width: 33%;
+ }
+
+
+ #button--quantity{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+
+ #button--quantity button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(245, 74, 74);
+  cursor: pointer;
+
+ }
+
+
+ h1{
+  color: red;
+ }
+
+ th{
+  color:blue;
+ }

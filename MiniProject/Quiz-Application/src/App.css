@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', Arial, sans-serif; /* Changed font family for a modern look */
+}
+
+body {
+  background-image:'https://th.bing.com/th/id/OIP.LWxRXkOQv49IBpY1-b6X6gHaFP?rs=1&pid=ImgDetMain' ;
+  background-color: #F0F4F8; /* Lighter background for a softer look */
+  overflow: auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.Header {
+  height: 100px;
+  background-color: #30475E; /* Changed to a deep blue shade */
+  color: #E8E8E8; /* Soft white for text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.admin--login {
+  padding: 2rem;
+  background-color: #F9D8D6; /* Soft pink for a gentle interface */
+  border: 3px solid #30475E; /* Dark border for contrast */
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15), 0 12px 30px 0 rgba(0, 0, 0, 0.25); /* Enhanced shadows for 3D effect */
+}
+
+#admin--welcome {
+  margin-bottom: 2rem;
+  font-size: 1.8rem; /* Larger text for emphasis */
+}
+
+.admin--username,
+.admin--password {
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 2px solid #B0BEC5; /* Subtle border color */
+  border-radius: 8px; /* Slightly rounder borders for a modern look */
+  display: flex;
+  justify-content: space-between; /* Ensure space between label and input */
+  width: 22rem; /* Slightly wider for better spacing */
+}
+
+#username,
+#password {
+  text-align: left; /* Align text to the left inside input fields */
+  flex-grow: 1; /* Allow input to fill space */
+}
+
+#label--username,
+#label--password {
+  color: #30475E; /* Consistent color with header */
+  text-shadow: none; /* Remove text shadow for cleaner look */
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: #6D6875; /* Subtle placeholder color */
+}
+
+#login--button {
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  background-color: #30475E;
+  color: #E8E8E8;
+  border: 2px solid #F9D8D6; /* Light border for contrast */
+  border-radius: 10px; /* More rounded for a friendly feel */
+  width: 10rem; /* Wider button for easier click */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+#login--button:hover {
+  background-color: #22333B; /* Darker shade on hover for depth */
+  color: #F9D8D6; /* Text color changes on hover */
+}

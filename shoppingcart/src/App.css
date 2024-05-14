@@ -1,0 +1,16 @@
+.p-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.p-image{
+    height:230px;
+    width:100%;
+    object-fit: contain;
+}
+
+.cart-img{
+    height:70px;
+    width:70px;
+}
+

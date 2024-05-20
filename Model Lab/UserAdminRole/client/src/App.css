@@ -1,0 +1,77 @@
+.container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: beige;
+}
+
+h1 {
+    color: purple;
+}
+
+.button-group {
+    margin-bottom: 20px;
+}
+
+.button-group button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: orange;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-group button.active {
+    background-color: red;
+    color: #fff;
+}
+
+.button-group button:hover {
+    background-color: red;
+    color: #fff;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: purple;
+}
+
+.admin-section, .user-section {
+    text-align: left;
+    display: inline-block;
+}
+
+h2 {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color:purple;
+}
+
+ul li {
+    color:red;
+    padding: 5px 0;
+}
